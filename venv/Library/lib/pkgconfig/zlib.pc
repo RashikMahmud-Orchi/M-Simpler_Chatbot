@@ -1,0 +1,13 @@
+prefix=F:/Dalhousie University/Process of data Sceince/Notebooks/project/venv/Library
+exec_prefix=F:/Dalhousie University/Process of data Sceince/Notebooks/project/venv/Library
+libdir=F:/Dalhousie University/Process of data Sceince/Notebooks/project/venv/Library/lib
+sharedlibdir=F:/Dalhousie University/Process of data Sceince/Notebooks/project/venv/Library/lib
+includedir=F:/Dalhousie University/Process of data Sceince/Notebooks/project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
